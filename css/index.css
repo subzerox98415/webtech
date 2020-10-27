@@ -1,0 +1,314 @@
+body{
+	max-width:100%;
+	background-color:#211C18;
+}
+@font-face {
+  font-family: MontseratLight;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: PlayFair;
+  src: url(../fonts/PlayfairDisplay-Medium.ttf);
+}
+h2
+{
+	font-family:PlayFair;
+}
+h3
+{
+	font-family:PlayFair;
+}
+#content{
+    
+    text-align: center;
+    
+	position:relative;
+}
+#himg
+{
+	position:relative;	
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #211C18;
+}
+
+li {
+  float: left;
+  
+}
+#htext
+{
+	text-align:justify;
+	margin-top:-50px;
+	position:relative;
+	background-color:#302B26;
+	max-width:80%;
+	padding:40px;
+	color:white;
+}
+#artical {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 14px;
+grid-row-gap: 0px;
+padding:30px;
+color:white;
+} 
+
+#sartical {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+} 
+
+.grid-item {
+  color:white;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.grid-items {
+  color:white;
+  padding: 0px;
+  margin:0px;
+  font-size: 20px;
+  text-align: center;
+}
+#spacer
+{
+	padding:30px;
+}
+.himage
+{
+	max-height:80%;
+	max-width:80%;
+	border-radius:50%;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+#newsletter{
+background-image: url('../img/hotel4.jpg');
+padding:100px;
+background-color:black;
+color:white;
+}
+#news{
+	background-color:black;
+	opacity:0.9;
+	padding:70px;
+}
+#inp{
+	
+	padding:10px;
+	margin:30px;
+	width:32%;
+	
+}
+#newsForm
+{
+	border:1px solid #302B26;
+	padding:20px;
+	text-align:left;
+}
+#subbutt
+{
+	  background-color: #211C18; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 12px;
+  font-family:MontseratLight;
+}
+p{
+font-family:MontseratLight;	
+}
+#subbutt:hover {
+  background-color: white;
+  color:black;
+}
+#footer {
+   position: fixed;
+   align:center;
+   left: 0;
+   bottom: -10px;
+   width: 100%;
+   background-color: #302B26;
+   color: white;
+   text-align: center;
+   padding:10px;
+ 
+}
+
+/*REGISZTRÁCIÓ*/
+    #wrapper {
+        width:450px;
+        margin:0 auto;
+        font-family:MontseratLight;
+    }
+    legend {
+        color:white;
+        font-size:16px;
+        padding:0 10px;
+        background:#302B26;
+        -moz-border-radius:4px;
+        
+        padding:5px 10px;
+        text-transform:uppercase;
+        font-family:MontseratLight;
+        font-weight:bold;
+    }
+    fieldset {
+		padding-top:50px;
+        border-radius:4px;
+        background: #302B26; 
+        background: -moz-linear-gradient(#302B26, #302B26);
+        background: -o-linear-gradient(#302B26, #302B26);
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#302B26), to(#302B26)); /
+        background: -webkit-linear-gradient(#302B26, #302B26);
+        padding:20px;
+        border-color:white;
+    }
+    input,
+    textarea {
+        color: #373737;
+        background: #302B26;
+        border: 1px solid #CCCCCC;
+        color: #aaa;
+        font-size: 14px;
+        line-height: 1.2em;
+        margin-bottom:15px;
+
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+    input[type="text"],
+    input[type="password"]{
+        padding: 8px 6px;
+        height: 22px;
+        width:280px;
+    }
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+        background:#f5fcfe;
+        text-indent: 0;
+        z-index: 1;
+        color: #373737;
+        -webkit-transition-duration: 400ms;
+        -webkit-transition-property: width, background;
+        -webkit-transition-timing-function: ease;
+        -moz-transition-duration: 400ms;
+        -moz-transition-property: width, background;
+        -moz-transition-timing-function: ease;
+        -o-transition-duration: 400ms;
+        -o-transition-property: width, background;
+        -o-transition-timing-function: ease;
+        width: 380px;
+        
+        border-color:#ccc;
+        box-shadow:0 0 5px rgba(4, 129, 177, 0.5);
+        opacity:0.6;
+    }
+    input[type="submit"]{
+        background: #222;
+        border: none;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+        text-transform:uppercase;
+        color: #eee;
+        cursor: pointer;
+        font-size: 15px;
+        margin: 5px 0;
+        padding: 5px 22px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-border-radius:4px;
+        -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    }
+    textarea {
+        padding:3px;
+        width:96%;
+        height:100px;
+    }
+    textarea:focus {
+        background:#ebf8fd;
+        text-indent: 0;
+        z-index: 1;
+        color: #373737;
+        opacity:0.6;
+        box-shadow:0 0 5px rgba(4, 129, 177, 0.5);
+        border-color:#ccc;
+    }
+    .small {
+        line-height:14px;
+        font-size:12px;
+        color:#999898;
+        margin-bottom:3px;
+    }
+	/*contact oldal*/
+	
+	#contact
+	{
+
+		color:white;
+		margin:20px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+	}
+	
+	.contact-grid-item
+	{
+			padding:10px;
+		background-color:#302B26;
+	}
+	.booking {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+} 
+.booking-grid-item
+{
+	padding:30px;
+	background-color:#fff8ea;
+}
